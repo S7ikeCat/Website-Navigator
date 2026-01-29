@@ -1,0 +1,197 @@
+@media (min-device-width: 1023px) and (max-device-width: 2560px) {
+
+
+body {
+  
+  
+  background-image: url('../Assets/fonW.png'); 
+  background-size: 130% 144px; 
+  background-repeat: no-repeat; 
+
+  
+}
+
+.icon {
+  margin: 4px;
+  width: 140px;
+  height: 143px;
+  /* justify-content: end; */
+  padding: 16px;
+  margin-top: 18px;
+  border-radius: 30%;
+  filter: brightness(95%)
+}
+
+
+
+
+/* .fonW {
+  
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  
+  position: absolute;
+  top: 17px;
+  
+  width: 100%;
+ 
+} */
+
+.navbar {
+  /* position: relative; */
+  display: flex;
+  margin-top: -33px;
+  /* padding-bottom: 100px; */
+  /* z-index: 2;  */
+  /* margin-bottom: 50px; */
+  
+  }
+
+  
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+  
+    /* text-shadow: rgb(0, 0, 0) 1px 0 10px; */
+  }
+  
+  .nav-menu li {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: bold;
+   
+  }
+  
+  .nav-menu li a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent; /* Начальное состояние без подчеркивания */
+    transition: border-bottom 0.3s ease; /* Плавное изменение при переходе */
+  }
+  
+  .nav-menu li a:hover {
+    border-bottom: 2px solid brown; /* Цвет и толщина подчеркивания при наведении и активном состоянии */
+  }
+}
+
+ 
+
+
+  @media (min-device-width: 767px) and (max-device-width: 1024px) { 
+
+
+    body {
+  
+      background-image: url('../Assets/fonW.png'); 
+      background-size: 120% 100px; 
+      background-repeat: no-repeat; 
+      margin: 0;
+      padding: 0;
+      
+    }
+    .icon {
+      margin: 18px;
+      width: 94px;
+      height: 98px;
+      justify-content: space-around;
+      padding: 16px;
+      margin-left: -5px;
+      filter: brightness(95%);
+      border-radius: 30%;
+    }
+    
+    .navbar {
+      display: flex;
+      margin-top: -33px;
+      }
+      
+     
+      
+      .nav-menu {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 10px;
+        margin-left: -50px;
+        
+      }
+      
+      .nav-menu li {
+        display: inline-block;
+        margin-right: 20px;
+        font-weight: bold;
+      }
+      
+      .nav-menu li a {
+        text-decoration: none;
+        color: black;
+        border-bottom: 2px solid transparent; /* Начальное состояние без подчеркивания */
+        transition: border-bottom 0.3s ease; /* Плавное изменение при переходе */
+      }
+      
+      .nav-menu li a:hover{
+        border-bottom: 2px solid brown; /* Цвет и толщина подчеркивания при наведении и активном состоянии */
+      }
+  }
+
+
+
+
+
+@media only screen and (max-device-width: 767px) { 
+  body {
+  
+    background-image: url('../Assets/fonW.png'); 
+    background-size: 1200px 100px; 
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0;
+    
+    
+  }
+  .icon {
+    margin: 18px;
+    width: 94px;
+    height: 98px;
+    justify-content: space-around;
+    padding: 16px;
+    margin-left: -5px;
+    filter: brightness(95%);
+    border-radius: 30%;
+  }
+  
+  .navbar {
+    display: flex;
+    margin-top: -33px;
+    }
+    
+   
+    
+    .nav-menu {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      gap: 10px;
+      margin-left: -50px;
+      
+    }
+    
+    .nav-menu li {
+      display: inline-block;
+      margin-right: 20px;
+      font-weight: bold;
+    }
+    
+    .nav-menu li a {
+      text-decoration: none;
+      color: black;
+      border-bottom: 2px solid transparent; /* Начальное состояние без подчеркивания */
+      transition: border-bottom 0.3s ease; /* Плавное изменение при переходе */
+    }
+    
+    .nav-menu li a:hover{
+      border-bottom: 2px solid brown; /* Цвет и толщина подчеркивания при наведении и активном состоянии */
+    }
+      
+}

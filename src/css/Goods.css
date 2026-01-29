@@ -1,0 +1,279 @@
+
+
+
+/* Раздел для "Сосиски и сардельки" "Полукопченые колбасы" ------------------------*/
+
+@media (min-device-width: 768px) and (max-device-width: 2560px) {
+
+  body {
+    overflow-y: scroll; /* Всегда показывать вертикальную полосу прокрутки, даже когда она не нужна */
+  }
+
+  .nav-category li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-category li a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent; /* Начальное состояние без подчеркивания */
+    transition: border-bottom 0.3s ease; /* Плавное изменение при переходе */
+  }
+  
+  .nav-category li a:hover,
+  .nav-category li a.active-link {
+    border-bottom: 2px solid brown; /* Цвет и толщина подчеркивания при наведении и активном состоянии */
+  }
+  
+
+  .nav-category {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-right: 3%;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 7px;
+    padding-bottom: 11px;
+    box-shadow: 0 0 5px rgba(116,36,61, 0.777);
+    
+}
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+  
+  }
+  
+  
+  .Goods_category {
+
+    /* margin: 10px; */
+    margin-right: 50px;
+    width: 40%; /* Каждый блок будет занимать 50% ширины контейнера */
+    box-sizing: border-box; /* Учтем padding и border внутри блока в расчете ширины */
+    padding: 10px; /* Пример внутреннего отступа, настройте по своему усмотрению */
+    box-shadow: 0 0 5px rgba(116,36,61, 0.377); /* Пример тени, настройте по своему усмотрению */
+    transition: 1s;
+  }
+
+  .Goods_category:hover {
+    transition: 1s;
+    box-shadow: 0 0 10px rgb(179, 54, 92);
+  }
+  
+  .Goods_category img {
+    display: block;
+  margin: auto;
+   
+  }
+  
+  .Goods_category p {
+    text-align: center;
+    font-size: 16px;
+
+    margin-top: 10px; /* Пример отступа между изображением и текстом, настройте по своему усмотрению */
+  }
+
+  .container .Goods_category:nth-child(7) {
+   padding-top: 60px;
+
+  }
+
+  .container .Goods_category:nth-child(7) p {
+    padding-top: 37px;
+ 
+   }
+
+  }
+
+
+
+  @media only screen and (max-device-width: 767px) { 
+
+    .nav-menu-goods li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    
+    .nav-menu-goods li a {
+      text-decoration: none;
+      color: black;
+      border-bottom: 2px solid transparent; /* Начальное состояние без подчеркивания */
+      transition: border-bottom 0.3s ease; /* Плавное изменение при переходе */
+    }
+    
+    .nav-menu-goods li a:hover,
+    .nav-menu-goods li a.active-link {
+      border-bottom: 2px solid brown; /* Цвет и толщина подчеркивания при наведении и активном состоянии */
+    }
+
+.nav-category {
+  font-size: 15px;
+  /* display: flex; */
+  list-style: none;
+  justify-content: center;
+  padding-right: 10%;
+  /* word-spacing: 10px; */
+  text-align: center;
+  /* justify-content: space-around; */
+  padding-top: 7px;
+  padding-bottom: 11px;
+  box-shadow: 0 0 5px rgba(116,36,61, 0.777);
+  width: 100%;
+}
+
+.nav-category li {
+  margin-bottom: 7px;
+}
+
+
+    .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+  
+  }
+
+.Goods_category {
+
+    margin: 10px;
+    margin-left: 70px;
+    width: 80%; /* Каждый блок будет занимать 50% ширины контейнера */
+    box-sizing: border-box; /* Учтем padding и border внутри блока в расчете ширины */
+    padding: 10px; /* Пример внутреннего отступа, настройте по своему усмотрению */
+    box-shadow: 0 0 5px rgba(116,36,61, 0.377); /* Пример тени, настройте по своему усмотрению */
+    transition: 1s;
+
+  }
+
+  .Goods_category:hover {
+    transition: 1s;
+    box-shadow: 0 0 10px rgb(179, 54, 92);
+  }
+  
+  .Goods_category img {
+    display: block;
+  margin: auto;
+   
+  }
+  
+  .Goods_category p {
+    text-align: center;
+    font-size: 16px;
+
+    margin-top: 10px; /* Пример отступа между изображением и текстом, настройте по своему усмотрению */
+  }
+
+  .container .Goods_category:nth-child(7) {
+   padding-top: 60px;
+
+  }
+
+  .container .Goods_category:nth-child(7) p {
+    padding-top: 37px;
+ 
+   }
+  }
+
+
+
+/* Раздел для "Вареные колбасы" -----------------------------------------------------*/
+
+.container-varen-colbas {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.Goods_category-varen-colbas {
+    margin: 10px;
+    margin-right: 50px;
+    width: 40%; /* Каждый блок будет занимать 50% ширины контейнера */
+    box-sizing: border-box; /* Учтем padding и border внутри блока в расчете ширины */
+    padding: 10px; /* Пример внутреннего отступа, настройте по своему усмотрению */
+    box-shadow: 0 0 5px rgba(116,36,61, 0.377);
+}
+  
+.Goods_category-varen-colbas img {
+    display: block;
+  margin: auto;
+   
+  }
+  
+  .Goods_category-varen-colbas p {
+    text-align: center;
+    font-size: 17px;
+
+    margin-top: 10px; /* Пример отступа между изображением и текстом, настройте по своему усмотрению */
+  }
+
+  .container-varen-colbas .Goods_category-varen-colbas:nth-child(6)  {
+    padding: 10px;
+ 
+   }
+
+
+   .container-varen-colbas .Goods_category-varen-colbas:nth-child(6) img  {
+    margin-bottom: 50px;
+    margin-top: 30px;
+   }
+   
+  .container-varen-colbas .Goods_category-varen-colbas:nth-child(5) img {
+   width: 80px;
+    
+   }
+
+.Goods_category-varen-colbas img {
+    width: 230px;
+}
+
+
+/* Раздел для "Продукты без свинины" ---------------------------------------------- */
+
+.container-bezSvin {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.Goods_category-bezSvin {
+    margin: 10px;
+    margin-right: 50px;
+    width: 40%; /* Каждый блок будет занимать 50% ширины контейнера */
+    box-sizing: border-box; /* Учтем padding и border внутри блока в расчете ширины */
+    padding: 10px; /* Пример внутреннего отступа, настройте по своему усмотрению */
+    box-shadow: 0 0 5px rgba(116,36,61, 0.377);
+}
+
+.Goods_category-bezSvin img {
+    width: 230px;
+}
+
+.Goods_category-bezSvin img {
+    display: block;
+  margin: auto;
+   
+  }
+  
+  .Goods_category-bezSvin p {
+    text-align: center;
+    font-size: 17px;
+
+    margin-top: 10px; /* Пример отступа между изображением и текстом, настройте по своему усмотрению */
+  }
+  .container-bezSvin .Goods_category-bezSvin:nth-child(4) img {
+    width: 83px;
+     
+    }
+

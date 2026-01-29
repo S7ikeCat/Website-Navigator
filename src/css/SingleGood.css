@@ -1,0 +1,266 @@
+@media only screen and (min-device-width: 1024px) {
+
+.description {
+    width: 800px;
+    text-align: justify;
+}
+
+.All {
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 15px;
+    /* align-items: center; */
+    padding-left: 17px;
+
+    
+}
+
+a {
+    text-decoration: none;
+  }
+
+.IN img {
+    box-shadow: 0px 0px 0px 4px rgb(130, 24, 24);
+    width: 350px;
+    /* margin-left: 55px; */
+}
+
+
+
+.IN {
+    text-align: center;
+    margin-right: 100px;
+    
+}
+
+.IN p {
+    width: 400px;
+}
+
+
+.partners img {
+    width: 40px;
+    margin-right: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.842);
+    transition: transform 0.1s ease; /* Заменено на transform */
+    margin-bottom: 1px;
+    border-radius: 50%;
+}
+
+.partners img:hover {
+    transform: scale(1.25); /* Изменение масштаба вместо ширины */
+}
+
+.desc {
+    box-shadow: 0px 0px 0px 4px rgba(130, 24, 24);
+    padding: 10px;
+    margin-right: 17px;
+}
+
+}
+
+@media (min-device-width: 1440px) and (max-device-width: 2560px) { 
+
+    .description {
+        width: 800px;
+        text-align: justify;
+    }
+
+    .All {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        /* align-items: center; */
+        /* padding-left: 17px; */
+    
+        
+    }
+    
+    a {
+        text-decoration: none;
+      }
+    
+    .IN img {
+        box-shadow: 0px 0px 0px 4px rgb(130, 24, 24);
+        width: 350px;
+        /* margin-left: 55px; */
+    }
+    
+    
+    
+    .IN {
+        text-align: center;
+        margin-right: 100px;
+        
+    }
+    
+    .IN p {
+        width: 400px;
+    }
+    
+    
+    .partners img {
+        width: 40px;
+        margin-right: 5px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.842);
+        transition: transform 0.1s ease; /* Заменено на transform */
+        margin-bottom: 1px;
+        border-radius: 50%;
+    }
+    
+    .partners img:hover {
+        transform: scale(1.25); /* Изменение масштаба вместо ширины */
+    }
+    
+    .desc {
+        box-shadow: 0px 0px 0px 4px rgba(130, 24, 24);
+        padding: 10px;
+        /* margin-right: 17px; */
+    }
+}
+
+
+
+@media (min-device-width: 768px) and (max-device-width: 1023px){ 
+
+    .description {
+        width: 900px;
+        text-align: justify;
+        font-size: 18px;
+    }
+
+    .All {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* margin-top: 15px; */
+        align-items: center;
+        /* padding-left: 17px; */
+        width: 120%;
+    
+        
+    }
+    
+    a {
+        text-decoration: none;
+      }
+    
+    .IN img {
+        box-shadow: 0px 0px 0px 4px rgb(130, 24, 24);
+        width: 350px;
+        /* margin-left: 55px; */
+    }
+    
+    
+    
+    .IN {
+        text-align: center;
+        /* margin-right: 100px; */
+        
+    }
+    
+    .IN p {
+        /* width: 400px; */
+        font-size: 18px;
+    }
+
+
+    .partners {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        /* margin-right: 70px; */
+    }
+    
+    .partners img {
+        width: 40px;
+        margin-right: 5px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.842);
+        transition: transform 0.1s ease; /* Заменено на transform */
+        margin-bottom: 1px;
+        border-radius: 50%;
+        /* margin-left: 100px; */
+    }
+    
+    .partners img:hover {
+        transform: scale(1.25); /* Изменение масштаба вместо ширины */
+    }
+    
+    .desc {
+        box-shadow: 0px 0px 0px 4px rgba(130, 24, 24);
+        padding: 10px;
+        /* margin-right: 17px; */
+    }
+}
+
+
+@media only screen and (max-device-width: 767px) { 
+
+    .description {
+        
+        text-align: justify;
+        font-size: 20px;
+    }
+    .All {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* margin-top: 15px; */
+        align-items: center;
+        /* padding-left: 17px; */
+        width: 150%;
+          
+        
+    }
+    
+    a {
+        text-decoration: none;
+      }
+    
+    .IN img {
+        box-shadow: 0px 0px 0px 4px rgb(130, 24, 24);
+        width: 350px;
+        /* margin-left: 55px; */
+    }
+    
+    
+    
+    .IN {
+        text-align: center;
+        /* margin-right: 100px; */
+        
+    }
+    
+    .IN p {
+        width: 400px;
+        font-size: 20px;
+    }
+
+
+    .partners {
+        display: flex;
+      
+        justify-content: space-around;
+    }
+    
+    .partners img {
+        width: 40px;
+        margin-right: 5px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.842);
+        transition: transform 0.1s ease; /* Заменено на transform */
+        margin-bottom: 1px;
+        border-radius: 50%;
+        
+    }
+    
+    .partners img:hover {
+        transform: scale(1.25); /* Изменение масштаба вместо ширины */
+    }
+    
+    .desc {
+        box-shadow: 0px 0px 0px 4px rgba(130, 24, 24);
+        padding: 10px;
+        /* margin-right: 17px; */
+    }
+
+}
