@@ -71,4 +71,5 @@
 git clone https://github.com/S7ikeCat/Website-Navigator.git
 cd Website-Navigator
 npm install
+Создать `.env` на основе `.env.example` и вставить свои ключи Firebase
 npm start
